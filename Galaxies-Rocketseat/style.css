@@ -1,0 +1,246 @@
+/* RESET CCS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-color: #121214;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 23.4rem;
+    padding-inline: 10px;
+    margin: 1.25rem auto;
+}
+
+/* HEADER */
+header h1 {
+    color: #02799D;
+    font-size: 1.81rem;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 1.81rem;
+
+}
+
+header p {
+    color: #E1E1E6;
+    font-size: 0.93rem;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 37.5rem;
+    margin-bottom: 1.25rem;
+}
+
+/* IMG CONFIGURAÇÃO */
+img {
+    
+    max-width: 100%;
+    border-radius: 8px 8px 0 0;
+    padding-top: 1px;
+
+}
+
+/* MAIN */
+/* BOX IC1101 */
+.box-ic1101 {
+    border: 1px solid #474747;
+    background-color: #323238;
+    border-radius: 8px 8px 5px 5px;
+    text-align: start;
+    margin-bottom: 2.5rem;
+}
+
+.box-ic1101 h2 {
+    color: #E1E1E6;
+    margin-block: 6px;
+    font-size: 1.56rem;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 56.2rem;
+}
+
+.box-ic1101 p {
+    color: #C4C4CC;
+    font-size:0.93rem;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 37.5rem;
+}
+
+/* CONFIGURAÇÃO PADRÃO PARA TODOS OS BLOCKS DE TEXTO */
+.box-text {
+    max-width: 20.0rem;
+    max-height: 9.87rem;
+    margin-inline: auto;
+    padding-block: 10px;
+    padding-bottom: 10.6rem;
+}
+
+/* BOX PHOENIX */
+.box-phoenix {
+    border: 1px solid #474747;
+    background-color: #323238;
+    border-radius: 8px 8px 5px 5px;
+    text-align: start;
+    margin-bottom: 2.5rem;
+
+}
+
+.box-phoenix h2 {
+    color: #E1E1E6;
+    margin-block: 6px;
+    font-size: 1.56rem;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 56.2rem;
+}
+
+.box-phoenix p {
+    color: #C4C4CC;
+    font-size: 0.93rem;
+    font-family: 'Mulish', sans-serif;
+    font-weight:37.5rem;
+}
+
+/* BOX NGC262 */
+.box-ngc262 {
+    border: 1px solid #474747;
+    background-color: #323238;
+    border-radius: 8px 8px 5px 5px;
+    text-align: start;
+    margin-bottom: 2.5rem;
+
+}
+
+.box-ngc262 h2 {
+    color: #E1E1E6;
+    margin-block: 6px;
+    font-size: 1.56rem;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 56.2rem;
+}
+.box-ngc262 p{
+    color: #C4C4CC;
+    font-size: 0.93rem;
+    font-family: 'Mulish', sans-serif;
+    font-weight:37.5rem
+}
+/* BOX NGC 4889 */
+.box-ngc4889 {
+    border: 1px solid #474747;
+    background-color: #323238;
+    border-radius: 8px 8px 5px 5px;
+    text-align: start;
+    margin-bottom: 2.5rem;
+}
+
+.box-ngc4889 h2 {
+    color: #E1E1E6;
+    margin-block: 6px;
+    font-size: 1.56rem;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 56.2rem;
+}
+.box-ngc4889 p{
+    color: #C4C4CC;
+    font-size: 0.93rem;
+    font-family: 'Mulish', sans-serif;
+    font-weight:37.5rem
+}
+/* BOX NGC 4874 */
+.box-ngc4874 {
+    border: 1px solid #474747;
+    background-color: #323238;
+    border-radius: 8px 8px 5px 5px;
+    text-align: start;
+    margin-bottom: 2.5rem;
+}
+
+.box-ngc4874 h2 {
+    color: #E1E1E6;
+    margin-block: 6px;
+    font-size: 1.56rem;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 56.2rem;
+}
+.box-ngc4874 p{
+    color: #C4C4CC;
+    font-size: 0.93rem;
+    font-family: 'Mulish', sans-serif;
+    font-weight:37.5rem
+}
+/* BOX A2261*/
+.box-a2261 {
+    border: 1px solid #474747;
+    background-color: #323238;
+    border-radius: 8px 8px 5px 5px;
+    text-align: start;
+    margin-bottom: 2.5rem;
+}
+
+.box-a2261 h2 {
+    color: #E1E1E6;
+    margin-block: 6px;
+    font-size: 1.56rem;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 56.2rem;
+}
+.box-a2261 p{
+    color: #C4C4CC;
+    font-size: 0.93rem;
+    font-family: 'Mulish', sans-serif;
+    font-weight:37.5rem}
+/* ======@MEDIA==== */
+@media( min-width:1298px){
+
+.container{
+max-width: 76.1rem;
+padding: 0;
+
+}
+/* HEADER */
+header{
+    margin-top:4.37rem ;
+}
+header h1{
+width: 36.5rem;
+font-size: 3.62rem;
+
+}
+header p{
+    width: 36.5rem;
+
+    font-size: 2rem;
+}
+/* MAIN */
+.box-galaxias1{
+
+    margin-top: 3.93rem;
+    display: flex;
+    flex-direction: row;
+    width: 76.1rem;
+    gap: 3.75rem;
+
+}
+
+.box-galaxias2{
+    
+  
+    gap: 3.75rem;
+    display: flex;
+    flex-direction: row;
+    width: 76.1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}    
